@@ -6,7 +6,7 @@ const ProblemSection: React.FC = () => {
   const problems = [Strings.problemStrings.divorce, Strings.problemStrings.love, Strings.problemStrings.family];
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-white">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
         {problems.map((problem, index) => (
           <ProblemCard

@@ -1,3 +1,4 @@
+import type { Insight } from "../../types/Insight";
 const Strings = {
   bannerMessage: "✨ Welcome to our website! Stay tuned for updates ✨",
 
@@ -103,6 +104,128 @@ const Strings = {
     image: "/images/astro4.png",
   },
 },
+// Add this to Strings.ts
+ASTRO_CARDS: [
+  {
+    id: 1,
+    title: "01",
+    description:
+      "Yashika Ji delves into the cosmic energies, offering personalized insights to answer the poignant question of whether a past love will return, providing hope and clarity for the future.",
+    button: "Call Now",
+  },
+  {
+    id: 2,
+    title: "02",
+    description:
+      "Yashika Ji’s holistic approach to marital discord involves a deep understanding of the celestial influences on relationships, providing tailored solutions to bring harmony and understanding between spouses.",
+    button: "Call Now",
+  },
+  {
+    id: 3,
+    title: "03",
+    description:
+      "Navigating the societal challenges of intercaste unions, Yashika Ji uses her astrological acumen to align cosmic energies, facilitating a harmonious path for couples seeking to bridge cultural divides.",
+    button: "Call Now",
+  },
+],
+
+SERVICE_SECTION: {
+  TITLE: "Yashika Ji's Astrology & Vastu Services",
+  SUBTITLE:
+    "Experience the transformative power of the best astrologer in India. Yashika Ji’s can help you with your career, relationships, or health. Her expert guidance will help you navigate your unique life path with confidence and clarity.",
+  SERVICES: [
+    {
+      id: 1,
+      title: "Gemstone",
+      description:
+        "Astrological gemstone therapy is a cornerstone of Yashika Sharma Ji's remedies for mental peace.",
+      image: "/images/service-gemstone.jpg",
+    },
+    {
+      id: 2,
+      title: "Matchmaking",
+      description:
+        "Yashika Ji facilitates the union of hearts, overcoming societal barriers, and providing astrological support",
+      image: "/images/service-matchmaking.jpg",
+    },
+    {
+      id: 3,
+      title: "Lost Love Back",
+      description:
+        "With a combination of astrological prowess and spiritual interventions, Yashika Ji guides individuals",
+      image: "/images/service-lovelost.jpg",
+    },
+    {
+      id: 4,
+      title: "Healing Spell",
+      description:
+        "Drawing upon mystical energies, Yashika Ji casts powerful spells for relationship healing",
+      image: "/images/service-healing.jpg",
+    },
+  ],
+},
+
+insights: {
+    title: "Discover Insights and Trends",
+    cards: [
+      {
+        title: "Best Love life predictions in Mumbai",
+        description:
+          "Best Love life predictions in Mumbai Call for Consultation in the vibrant city of Mumbai...",
+        badge: "BEST ASTROLOGER IN INDIA",
+        flag: "/images/flags/india.png",
+        image: "/images/insights/mumbai.jpg",
+        link: "/insights/mumbai",
+        readMore: "READ MORE »",
+      },
+      {
+        title: "Best Zodiac compatibility in Toronto",
+        description:
+          "Best Zodiac compatibility in Toronto Call for Consultation in the dynamic city of Toronto...",
+        badge: "BEST ASTROLOGER IN CANADA",
+        flag: "/images/flags/canada.png",
+        image: "/images/insights/toronto.jpg",
+        link: "/insights/toronto",
+        readMore: "READ MORE »",
+      },
+      {
+        title: "Best Horoscope analysis in Sydney",
+        description:
+          "Best Horoscope analysis in Sydney Call for Consultation in the vibrant city of Sydney...",
+        badge: "BEST ASTROLOGER IN AUSTRALIA",
+        flag: "/images/flags/australia.png",
+        image: "/images/insights/sydney.jpg",
+        link: "/insights/sydney",
+        readMore: "READ MORE »",
+      },
+    ] as Insight[],
+  },
+
+  footer: {
+  about:
+    "Guru Maa Yashika Ji, a beacon of celestial guidance, offers a diverse array of services to address the intricate facets of love, relationships, and marital harmony.",
+  services: {
+    title: "Main Services",
+    items: [
+      "Love Marriage Specialist",
+      "Bring back your Lost Love",
+      "Love problem solution",
+      "Will my ex come back?",
+      "Intercaste Marriage specialist",
+      "Relationship Healing Spell",
+      "One sided love problem solution",
+      "Match Making For Love",
+      "Husband wife problem solution",
+      "Ex-Love Reconnection Advice",
+    ],
+  },
+  subscribe: {
+    title: "Subscribe Now",
+    description: "Don’t miss our future updates! Get Subscribed Today!",
+    placeholder: "Your mail here",
+  },
+},
+
 
 
   tagline: "Best Astrology Solution",
