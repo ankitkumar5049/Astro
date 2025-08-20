@@ -16,8 +16,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ image, title, description }) 
         alt={title}
         className="w-65 h-65 rounded-full object-cover shadow-md mb-4"
       />
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-gray-600 text-sm">{description}</p>
+      <h3 className="text-xl text-white font-semibold mb-2">{title}</h3>
+      <p className="text-gray-200 text-sm">{description}</p>
     </div>
   );
 };

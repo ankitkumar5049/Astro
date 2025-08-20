@@ -18,7 +18,7 @@ const FooterAbout: React.FC = () => {
         alt="Astrologer Yashika Ji"
         className="mx-auto md:mx-0 w-40"
       />
-      <p className="text-gray-600 text-sm">{Strings.footer.about}</p>
+      <p className="text-gray-200 text-sm">{Strings.footer.about}</p>
       <div className="flex justify-center md:justify-start space-x-4 pt-2">
         <FaFacebookF className="text-[#3b5998]" />
         <FaTwitter className="text-[#1da1f2]" />

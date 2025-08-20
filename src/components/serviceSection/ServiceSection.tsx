@@ -8,10 +8,10 @@ const ServiceSection: React.FC = () => {
   const { TITLE, SUBTITLE, SERVICES } = Strings.SERVICE_SECTION;
 
   return (
-    <section className="py-16 px-6 bg-white text-center">
+    <section className="py-16 px-6 bg-black text-center">
       <div className="max-w-4xl mx-auto mb-12">
-        <h2 className="text-3xl font-bold text-gray-800">{TITLE}</h2>
-        <p className="text-gray-600 mt-4 text-sm md:text-base">{SUBTITLE}</p>
+        <h2 className="text-3xl font-bold text-white">{TITLE}</h2>
+        <p className="text-gray-200 mt-4 text-sm md:text-base">{SUBTITLE}</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-7xl mx-auto">

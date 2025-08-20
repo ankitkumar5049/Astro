@@ -1,28 +1,27 @@
 import { useState } from "react";
 import { FaFacebookF, FaTwitter, FaYoutube, FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import Strings from "../../constants/strings/string";
-import { COLORS } from "../../constants/colors/Color";
 
 const AccordionItem = ({ title, content }: { title: string; content: string }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b">
+    <div className="border-b border-white">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-between w-full py-3 text-left font-semibold text-gray-800"
+        className="flex justify-between w-full py-3 pl-2 pr-4 text-left font-semibold text-gray-200"
       >
         {title}
         <span>{isOpen ? "−" : "+"}</span>
       </button>
-      {isOpen && <p className="pb-4 text-gray-600">{content}</p>}
+      {isOpen && <p className="pb-4 text-gray-100">{content}</p>}
     </div>
   );
 };
 
 export default function AboutSection() {
   return (
-    <section className="w-full  bg-gray-50 py-12 px-6 md:px-12">
+    <section className="w-full  bg-black py-12 px-6 md:px-12">
       <div className="grid md:grid-cols-2 gap-10 items-start">
 
         {/* Left Side Card */}
@@ -44,16 +43,16 @@ export default function AboutSection() {
 
         {/* Right Side Content */}
         <div>
-          <p className="text-gray-700 leading-relaxed mb-6">
+          <p className="text-white leading-relaxed mb-6">
             {Strings.ABOUT_SECTION.DESCRIPTION_1}
           </p>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
+          <p className="text-white leading-relaxed mb-6">
             {Strings.ABOUT_SECTION.DESCRIPTION_2}
           </p>
 
           {/* Accordion */}
-          <div className="border rounded-lg divide-y mb-6 p-2">
+          <div className="border border-white rounded-lg divide-y mb-6">
             <AccordionItem
               title={Strings.ABOUT_SECTION.ACCORDION.HUSBAND_WIFE.TITLE}
               content={Strings.ABOUT_SECTION.ACCORDION.HUSBAND_WIFE.CONTENT}
