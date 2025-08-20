@@ -1,0 +1,32 @@
+.banner-container {
+  position: fixed;       /* Stick to top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: yellow;
+  overflow: hidden;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.banner-text {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: scroll-left 12s linear infinite;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
