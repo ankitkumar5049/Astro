@@ -1,10 +1,13 @@
 import React from "react";
 import Strings from "../../constants/strings/string";
+import { COLORS } from "../../constants/colors/Color";
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-[#e61c4d] text-white py-14 w-full box-border
-  bg-[length:200px,200px] md:bg-[length:300px,300px]">
+    <div className="text-white py-14 w-full box-border
+  bg-[length:200px,200px] md:bg-[length:300px,300px]"
+  style={{ backgroundColor: COLORS.darkBg }}
+  >
   
   <div className="max-w-7xl mx-auto flex justify-between items-center flex-wrap px-5">
         {/* Left Side */}

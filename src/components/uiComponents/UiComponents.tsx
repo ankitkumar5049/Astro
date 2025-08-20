@@ -8,7 +8,7 @@ interface SectionHeadingProps {
 const SectionHeading: React.FC<SectionHeadingProps> = ({ title, className }) => {
   return (
     <h2
-      className={`text-2xl md:text-3xl font-bold text-gray-900 ${className ?? ""}`}
+      className={`text-2xl md:text-3xl font-bold text-white ${className ?? ""}`}
     >
       {title}
     </h2>

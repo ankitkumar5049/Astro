@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaFacebookF, FaTwitter, FaYoutube, FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import Strings from "../../constants/strings/string";
+import { COLORS } from "../../constants/colors/Color";
 
 const AccordionItem = ({ title, content }: { title: string; content: string }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -90,7 +91,8 @@ export default function AboutSection() {
           </div>
 
           {/* Call to Action Button */}
-          <button className="w-full bg-[#e61c4d] hover:bg-[#c9143d] text-white font-semibold py-3 rounded-lg transition">
+          <button className=" btn-gold w-full hover:bg-[#c9143d] text-white font-semibold py-3 rounded-lg transition"
+          >
             {Strings.ABOUT_SECTION.CTA_BUTTON}
           </button>
         </div>

@@ -1,10 +1,13 @@
 import React from "react";
 import Strings from "../../constants/strings/string";
 import Card from "../uiComponents/Card";
+import { COLORS } from "../../constants/colors/Color";
 
 const AstroSolutions: React.FC = () => {
   return (
-    <section className="w-full bg-[#e61c4d] py-16">
+    <section className="w-full py-16"
+    style={{ backgroundColor: COLORS.darkBg }}
+    >
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-center text-2xl md:text-3xl font-bold text-white mb-12">
           {Strings.ASTRO_SOLUTIONS.TITLE}

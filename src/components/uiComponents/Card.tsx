@@ -14,7 +14,8 @@ const Card: React.FC<CardProps> = ({ title, description, button, image }) => {
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-lg font-semibold text-gray-800 mb-3">{title}</h3>
         <p className="text-gray-600 flex-grow">{description}</p>
-        <button className="mt-6 px-4 py-2 bg-[#e61c4d] hover:bg-[#c9143d] text-white font-semibold rounded-md transition">
+        <button className="btn-gold mt-6 px-4 py-2 hover:bg-[#c9143d] text-white font-semibold rounded-md transition"
+        >
           {button}
         </button>
       </div>

@@ -26,35 +26,40 @@ const FeatureSection: React.FC = () => {
   return (
     <section className="w-full bg-gray-50 relative py-16 px-6">
       {/* Background pattern (replace with your own om symbol image if needed) */}
-      <div className="absolute inset-0 bg-[url('/om-pattern.png')] opacity-10 bg-repeat" />
+      <div className="absolute inset-0 bg-[url('/images/backgroundLogo.png')] opacity-50 bg-repeat" />
 
       {/* Content wrapper */}
       <div className="relative max-w-6xl mx-auto text-center">
         {/* Heading */}
         <SectionHeading title={Strings.about.title} />
-        <p className="mt-2 text-lg font-semibold text-red-600">
-            {Strings.tagline}
+        <p
+          className="mt-2 text-lg font-semibold"
+          style={{ color: COLORS.goldPrimary }}
+        >
+          {Strings.tagline}
         </p>
+
 
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg p-20 flex flex-col items-center text-center"
+              className="rounded-2xl shadow-lg p-20 flex flex-col items-center text-center"
+              style={{ backgroundColor: COLORS.darkBg }}
             >
               <div 
               className="w-16 h-16 flex items-center justify-center rounded-full mb-6"
-              style={{ backgroundColor: COLORS.red }}
+              style={{ backgroundColor: COLORS.goldPrimary }}
               >
                 {item.icon}
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-6">
+              <h3 className="text-lg font-bold text-white mb-6">
                 {item.title}
               </h3>
               <button 
-              className="px-6 py-2 text-white font-semibold rounded-md transition"
-              style={{ backgroundColor: COLORS.red }}
+              className="btn-gold px-6 py-3 rounded-lg font-semibold shadow-lg transition-transform transform hover:scale-105"
+              // style={{ backgroundColor: COLORS.goldPrimary }}
               >
                 {item.button}
               </button>
@@ -63,7 +68,10 @@ const FeatureSection: React.FC = () => {
         </div>
 
         <SectionHeading title={Strings.about.heading} className="mt-20" />
-        <p className="mt-2 text-sm font-semibold text-red-600">
+        <p
+          className="mt-2 text-lg font-semibold"
+          style={{ color: COLORS.goldPrimary }}
+        >
           {Strings.about.subheading}
         </p>
         
