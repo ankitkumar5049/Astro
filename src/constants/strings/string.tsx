@@ -139,28 +139,28 @@ SERVICE_SECTION: {
       title: "Gemstone",
       description:
         "Astrological gemstone therapy is a cornerstone of Yashika Sharma Ji's remedies for mental peace.",
-      image: "/images/service-gemstone.jpg",
+      image: "/images/astro5.png",
     },
     {
       id: 2,
       title: "Matchmaking",
       description:
         "Yashika Ji facilitates the union of hearts, overcoming societal barriers, and providing astrological support",
-      image: "/images/service-matchmaking.jpg",
+      image: "/images/astro6.png",
     },
     {
       id: 3,
       title: "Lost Love Back",
       description:
         "With a combination of astrological prowess and spiritual interventions, Yashika Ji guides individuals",
-      image: "/images/service-lovelost.jpg",
+      image: "/images/astro7.png",
     },
     {
       id: 4,
       title: "Healing Spell",
       description:
         "Drawing upon mystical energies, Yashika Ji casts powerful spells for relationship healing",
-      image: "/images/service-healing.jpg",
+      image: "/images/astro8.png",
     },
   ],
 },
