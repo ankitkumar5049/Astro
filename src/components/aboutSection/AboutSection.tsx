@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaFacebookF, FaTwitter, FaYoutube, FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import Strings from "../../constants/strings/string";
+import SectionHeading from "../uiComponents/UiComponents";
+import { COLORS } from "../../constants/colors/Color";
 
 const AccordionItem = ({ title, content }: { title: string; content: string }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +24,13 @@ const AccordionItem = ({ title, content }: { title: string; content: string }) =
 export default function AboutSection() {
   return (
     <section className="w-full  bg-black py-12 px-6 md:px-12">
+      <SectionHeading title={Strings.about.heading} className="" />
+        <p
+          className="mt-2 text-lg font-semibold mb-10"
+          style={{ color: COLORS.goldPrimary }}
+        >
+          {Strings.about.subheading}
+        </p>
       <div className="grid md:grid-cols-2 gap-10 items-start">
 
         {/* Left Side Card */}

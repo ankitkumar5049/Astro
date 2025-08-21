@@ -66,14 +66,6 @@ const FeatureSection: React.FC = () => {
             </div>
           ))}
         </div>
-
-        <SectionHeading title={Strings.about.heading} className="mt-20" />
-        <p
-          className="mt-2 text-lg font-semibold"
-          style={{ color: COLORS.goldPrimary }}
-        >
-          {Strings.about.subheading}
-        </p>
         
       </div>
     </section>

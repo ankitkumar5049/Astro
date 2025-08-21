@@ -10,7 +10,7 @@ interface InsightCardProps {
 const InsightCard: React.FC<InsightCardProps> = ({ data }) => {
   return (
     <div className="rounded-xl border bg-white shadow-md hover:shadow-lg transition duration-300 overflow-hidden max-w-sm">
-      <div className="relative h-56 w-full">
+      <div className="relative w-full">
         <img
           src={data.image}
           alt={data.title}

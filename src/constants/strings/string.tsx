@@ -63,7 +63,7 @@ const Strings = {
         description:
           "Yashika Ji provides empathetic guidance and actionable insights to navigate the emotional turmoil of a break-up, helping individuals find closure and move forward with resilience.",
         button: "Call Now",
-        image: "/images/breakup.jpg",
+        image: "/images/astro12.jpg",
       },
       {
         id: 2,
@@ -71,7 +71,7 @@ const Strings = {
         description:
           "Utilizing her profound astrological insights and spiritual expertise, Yashika Ji assists in rekindling the flame of lost love, guiding clients on a transformative journey to bring back their ex-love.",
         button: "Call Now",
-        image: "/images/exlove.jpg",
+        image: "/images/astro13.jpg",
       },
       {
         id: 3,
@@ -79,7 +79,7 @@ const Strings = {
         description:
           "For those caught in the complexities of unrequited love, Yashika Ji offers a unique blend of celestial wisdom and practical advice, fostering emotional healing and harmony.",
         button: "Call Now",
-        image: "/images/marriage.jpg",
+        image: "/images/astro14.jpeg",
       },
     ],
   },
@@ -174,7 +174,7 @@ insights: {
           "Best Love life predictions in Mumbai Call for Consultation in the vibrant city of Mumbai...",
         badge: "BEST ASTROLOGER IN INDIA",
         flag: "/images/flags/india.png",
-        image: "/images/insights/mumbai.jpg",
+        image: "/images/astro9.png",
         link: "/insights/mumbai",
         readMore: "READ MORE »",
       },
@@ -184,7 +184,7 @@ insights: {
           "Best Zodiac compatibility in Toronto Call for Consultation in the dynamic city of Toronto...",
         badge: "BEST ASTROLOGER IN CANADA",
         flag: "/images/flags/canada.png",
-        image: "/images/insights/toronto.jpg",
+        image: "/images/astro10.png",
         link: "/insights/toronto",
         readMore: "READ MORE »",
       },
@@ -194,7 +194,7 @@ insights: {
           "Best Horoscope analysis in Sydney Call for Consultation in the vibrant city of Sydney...",
         badge: "BEST ASTROLOGER IN AUSTRALIA",
         flag: "/images/flags/australia.png",
-        image: "/images/insights/sydney.jpg",
+        image: "/images/astro11.png",
         link: "/insights/sydney",
         readMore: "READ MORE »",
       },
